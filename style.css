@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #6893c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-bg{
+    width: 80%;
+    background-color: white;
+}
+.form-bg img{
+    width: 100%;
+}
+.main-form{
+    width: 85%;
+}
+.main-form h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1c538b;
+}
+.emailandpass input{
+    padding: 10px 20px;
+    border: 1px solid #6893c4;
+    border-radius: 5px;
+}
+  
+
+.submit-btn button{
+    padding: 10px 30px;
+    background-color: #1c538b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    white-space: nowrap;
+}
+
+/* login and sign-up page finishes */
+
+.Products{
+    padding: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.Products .item{
+    width: 300px;
+}
+.Products img{
+    /* height: 200px; */
+    width: 100%;
+}
+.Products .item a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.Products .item label{
+    font-size: 18px;
+    font-weight: 800;
+}
+.Products .item button{
+    background-color: #1c538b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+}
+.Products .item button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.cart-item img{
+    width: 100px;
+}
+.cart table tr td:nth-child(1){
+    width: 40%;
+}
+.cart table tr td:nth-child(3){
+    width: 10%;
+}
+.cart table input{
+    width: 50%;
+    border: none;
+}
+table tr th{
+    text-align: center;
+}
+table tr td{
+    text-align: center;
+}
+.place-order button{
+    padding: 10px 30px;
+    background-color: #1c538b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}

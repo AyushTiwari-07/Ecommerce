@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="nav-bar">
+        <nav class="navbar navbar-expand-lg p-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="main-page.html">E-Commerce</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="main-page.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="cart.html">Cart</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="cart container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Qunatity</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        <div class="cart-item d-flex gap-2">
+                            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1693564325_9717752.jpg?format=webp&w=480&dpr=1.3"
+                                alt="">
+                            <div>
+                                <h5>Men T-Shirt</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eius magnam
+                                    eveniet veniam corrupti quaerat ex dicta suscipit modi! Minus.</p>
+                            </div>
+                        </div>
+
+                    </td>
+                    <td>$676</td>
+                    <td><input value="1" type="number" name="" id=""></td>
+                    <td>$676</td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <div class="cart-item d-flex gap-2">
+                            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1693564325_9717752.jpg?format=webp&w=480&dpr=1.3"
+                                alt="">
+                            <div>
+                                <h5>Men T-Shirt</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eius magnam
+                                    eveniet veniam corrupti quaerat ex dicta suscipit modi! Minus.</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>$565</td>
+                    <td>
+                       <input type="number" name="" value="1">
+                    </td>
+                    <td>$565</td>
+
+                </tr>
+                <tr>
+
+                    <td>
+                        <div class="cart-item d-flex gap-2">
+                            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1693564325_9717752.jpg?format=webp&w=480&dpr=1.3"
+                                alt="">
+                            <div>
+                                <h5>Men T-Shirt</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eius magnam
+                                    eveniet veniam corrupti quaerat ex dicta suscipit modi! Minus.</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>$565</td>
+                    <td>
+                       <input type="number" name="" value="1">
+                    </td>
+                    <td>$565</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+        <div class="place-order pb-5 d-flex justify-content-center">
+            <div class="text-center">
+                <h4>Grand Total : <span>$787</span></h4>
+            <button>Place Order</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
